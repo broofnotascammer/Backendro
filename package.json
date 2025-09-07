@@ -1,0 +1,17 @@
+{
+  "name": "roast-bot-server",
+  "version": "1.0.0",
+  "description": "A witty roast bot backend using ChatGPT API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'No build needed for pure Node.js server'"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^4.10.0"
+  }
+}
